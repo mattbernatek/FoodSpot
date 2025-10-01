@@ -21,8 +21,6 @@
     color: #ff0157;
 }
 
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -216,3 +214,72 @@
     font-size: 1.2em;
 }
 
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url("https://i.postimg.cc/k5dZs5jR/bg2.jpg");
+    background-size: cover;
+    width: 100%;
+    }
+
+.testimonialcards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.testimonials .testimonialcards .testimonialcard {
+    width: 350px;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialtext {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonialtext p {
+    font-style: italic;
+}
+
+.testimonialtext span {
+    margin-top: 20px;
+}
+
+.testimonialcards .testimonialcard img {
+    border-radius: 48%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .imagebox2 {
+    width: 100%;
+    height: 300px;
+} 
+
+.testimonialstitle {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialstitle h3 {
+    font-size: 2em;
+}
