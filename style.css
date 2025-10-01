@@ -11,6 +11,18 @@
     padding: 80px;
 }
 
+.highlight {
+    color: #ff0157;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navhighlight {
+    color: #ff0157;
+}
+
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -31,10 +43,6 @@
     font-size: 2.5em;
     font-weight: bold;
 
-}
-
-.navbar .logo span {
-    color: #ff0157;
 }
 
 .navbar .navsec {
@@ -168,3 +176,4 @@
     text-align: center;
     margin-top: 15px;
 }
+
