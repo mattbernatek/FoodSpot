@@ -359,7 +359,7 @@
 /* Styling the hamburger menu */
 
 .menu-toggle {
-    /* display: none; */
+    display: none;
     cursor: pointer;
     font-size: 30px;
     display: none;
