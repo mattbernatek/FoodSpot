@@ -5,6 +5,7 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .section {
@@ -282,4 +283,75 @@
 
 .testimonialstitle h3 {
     font-size: 2em;
+}
+
+.contactus {
+    background: url(https://i.postimg.cc/4NmrNq7y/bg3.jpg);
+    background-size: cover;
+    padding: 80px;
+}
+
+.contactform {
+    padding: 75px 50px;
+    box-shadow: 0px 15px 25px grey;
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.contactform h3 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.contactform .inputfield {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactform .inputfield input, .contactform .inputfield textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: grey;
+    outline: none;
+    font-size: 16px;
+    resize: none;
+}
+
+.contactform .inputfield .btn {
+    color: white;
+    width: 30%;
+    cursor: pointer;
+}
+
+.contactform .inputfield .btn:hover {
+    background-color: black;
+}
+
+.contactustitle {
+    text-align: center;
+}
+
+.contactustitle h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #ff0157;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
