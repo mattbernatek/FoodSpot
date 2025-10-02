@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+    <script src="https://kit.fontawesome.com/2077af6e1d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Navigation Bar Section -->
@@ -16,8 +17,10 @@
         
         <a href="#" class="logo">Food<span class="navhighlight">Spot</span></a>
 
+        <i class="fa-solid fa-bars menu-toggle" onclick="toggleMenu()"></i>
+
         <!-- Website Navigation Section -->
-        <ul class="navsec">
+        <ul id="navsec" class="navsec">
             <li><a href="#">Home</a></li>
             <li><a href="#aboutus">About</a></li>
             <li><a href="#menu">Menu</a></li>
@@ -284,5 +287,12 @@
             </a>
         </div>
     </section>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("navsec");
+            menu.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>

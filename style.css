@@ -355,3 +355,46 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+/* Styling the hamburger menu */
+
+.menu-toggle {
+    /* display: none; */
+    cursor: pointer;
+    font-size: 30px;
+    display: none;
+}
+
+/* Crerating media queries for smaller screens that will replace the current .navsec navigation buttons with a hamburger menu */
+
+
+/* Using 1040px max-wdith in this case because the regular menu is quite wide on its own */
+
+@media (max-width: 1040px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar .navsec {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background-color: white;
+    }
+
+    .navbar .navsec.active {
+        display: flex;
+    }
+
+    .navbar .navsec {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .navbar .navsec li {
+        margin: 5px 0;
+    }
+}
