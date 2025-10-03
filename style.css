@@ -362,7 +362,6 @@
     display: none;
     cursor: pointer;
     font-size: 30px;
-    display: none;
 }
 
 /* Crerating media queries for smaller screens that will replace the current .navsec navigation buttons with a hamburger menu */
